@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBC</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="responsive_menu">
+            <div class="res_menu_visible">
+                <a href="#">Company</a> <i class="res_menu_arrow res_menu_company_arrow fa fa-angle-right"></i>
+            </div>
+            <div class="res_menu_hidden res_menu_hiden_company">
+                <a href="#">About Company</a>
+                <a href="#">Directorate</a>
+                <a href="#">Supervisory Board</a>
+                <a href="#">Corporate Responsibility</a>
+            </div>
+            <div class="res_menu_visible">
+                <a href="#">Products</a> <i class="res_menu_arrow res_menu_products_arrow fa fa-angle-right"></i>
+            </div>
+            <div class="res_menu_hidden res_menu_hiden_products">
+                <a href="#">Agro Loan</a>
+                <a href="#">Business Loan</a>
+                <a href="#">Start Up Loan</a>
+                <a href="#">Mortgage Loan</a>
+                <a href="#">Mortgages Portage</a>
+                <a href="#">Auto Pawn</a>
+                <a href="#">SMS Service</a>
+                <a href="#">Money Transfers</a>
+                <a href="#">Utilities And Other Payments</a>
+            </div>
+            <div class="res_menu_visible">
+                <a href="#">Financial Data</a> <i class="res_menu_arrow res_menu_fd_arrow fa fa-angle-right"></i>
+            </div>
+            <div class="res_menu_hidden res_menu_hiden_fd">
+                <a href="#">Quarterly Reports</a>
+                <a href="#">Audit Reports</a>
+                <a href="#">Annual Report</a>
+                <a href="#">CSR Report</a>
+            </div>
+            <div class="res_menu_visible">
+                <a href="#">News</a> <i class="res_menu_arrow res_menu_news_arrow fa fa-angle-right"></i>
+            </div>
+            <div class="res_menu_hidden res_menu_hiden_news">
+                <a href="#">News</a>
+                <a href="#">Photo Gallery</a>
+                <a href="#">Video Gallery</a>
+            </div>
+            <div class="res_menu_visible">
+                <a href="#">Career</a> <i class="res_menu_arrow res_menu_career_arrow fa fa-angle-right"></i>
+            </div>
+            <div class="res_menu_hidden res_menu_hiden_career">
+                <a href="#">Vacancies</a>
+            </div>
+            <div class="res_menu_visible">
+                <a href="#">Contacts</a> <i class="res_menu_arrow res_menu_contacts_arrow fa fa-angle-right"></i>
+            </div>
+            <div class="res_menu_hidden res_menu_hiden_contacts">
+                <a href="#">Online Complain</a>
+            </div>
+            <div class="res_menu_visible">
+                <a href="#">CSR</a>
+            </div>
+            <div class="res_menu_len">
+                <div>Eng</div>
+                <div>ქარ</div>
+            </div>
+        </div>
+        <div class="nav_bar">
+            <div class="nav_bar_left">
+                <a href="#" class="logo">
+                    <img src="images/logo.jpg" width="100%" height="100%" />
+                </a>
+                <div class="nav_bar_list">
+                    <div class="nav_bar_list_company">
+                        Company<i class="fa fa-angle-down"></i>
+                        <div class="nav_bar_hidden nav_bar_hidden_company">
+                            <a href="#">About Company</a>
+                            <a href="#">Directorate</a>
+                            <a href="#">Supervisory Board</a>
+                            <a href="#">Corporate Responsibility</a>
+                        </div>
+                    </div>
+                    <div class="nav_bar_list_products">
+                        Products<i class="fa fa-angle-down"></i>
+                        <div class="nav_bar_hidden nav_bar_hidden_products">
+                            <a href="#">Agro Loan</a>
+                            <a href="#">Business Loan</a>
+                            <a href="#">Start Up Loan</a>
+                            <a href="#">Mortgage Loan</a>
+                            <a href="#">Mortgages Portage</a>
+                            <a href="#">Auto Pawn</a>
+                            <a href="#">SMS Service</a>
+                            <a href="#">Money Transfers</a>
+                            <a href="#">Utilities And Other Payments</a>
+                        </div>
+                    </div>
+                    <div class="nav_bar_list_data">
+                        Financial Data<i class="fa fa-angle-down"></i>
+                        <div class="nav_bar_hidden nav_bar_hidden_data">
+                            <a href="#">Quarterly Reports</a>
+                            <a href="#">Audit Reports</a>
+                            <a href="#">Annual Report</a>
+                            <a href="#">CSR Report</a>
+                        </div>
+                    </div>
+                    <div class="nav_bar_list_news">
+                        News<i class="fa fa-angle-down"></i>
+                        <div class="nav_bar_hidden nav_bar_hidden_news">
+                            <a href="#">News</a>
+                            <a href="#">Photo Gallery</a>
+                            <a href="#">Video Gallery</a>
+                        </div>
+                    </div>
+                    <div class="nav_bar_list_career">
+                        Career<i class="fa fa-angle-down"></i>
+                        <div class="nav_bar_hidden nav_bar_hidden_career">
+                            <a href="#">Vacancies</a>
+                        </div>
+                    </div>
+                    <div class="nav_bar_list_contacts">
+                        Contacts<i class="fa fa-angle-down"></i>
+                        <div class="nav_bar_hidden nav_bar_hidden_contacts">
+                            <a href="#">Online Complain</a>
+                        </div>
+                    </div>
+                    <div>CSR</div>
+                </div>
+            </div>
+            <div class="nav_bar_right">
+                <a href="#" class="mbc">MBC Online</a>
+                <div class="len">
+                    Eng<i class="fa fa-angle-down"></i>
+                    <div class="hidden_len">
+                        <a href="#">ქარ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_bar_responsive">
+            <a href="#" class="nav_bar_responsive_icon"><img class="nav_bar_responsive_icon_img" src="images/show_hide.jpg" /></a>
+            <a href="#" class="nav_bar_responsive_logo"><img src="images/logo.jpg" width="100%" height="100%" /></a>
+            <a href="#" class="nav_bar_responsive_mbc">MBC Online</a>
+            <a href="#" class="nav_bar_responsive_mbc_user"><i class="fa fa-user"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_section_1">
+            <div class="main_img_cont">
+                <div class="main_img_cont_img main_img_cont_img_1"></div>
+                <div class="main_img_cont_img main_img_cont_img_2"></div>
+                <div class="main_img_cont_img main_img_cont_img_3"></div>
+                <div class="main_img_cont_img main_img_cont_img_4"></div>
+                <div class="main_img_cont_img main_img_cont_img_5"></div>
+            </div>
+            <div class="main_img_text_cont">
+
+            </div>
+            <div class="main_img_text">
+                <div class="main_img_text_header">Argo Loan</div>
+                <div class="main_img_sub_text"></div>
+                <div class="main_img_buttons">
+                    <a href="#" class="req_button">Request Loan</a>
+                    <a href="#" class="read_button">Read more</a>
+                </div>
+            </div>
+            <div class="carousel_cont">
+                <div class="carousel_cont_cont">
+                    <a href="#" class="carousel_item carousel_1_item">
+                        <div class="carousel_img_wrapper img_1_wrapper"></div>
+                        <div class="carousel_sub_text">Business Loan</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_2_item">
+                        <div class="carousel_img_wrapper img_2_wrapper"></div>
+                        <div class="carousel_sub_text">Argo Loan</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_3_item">
+                        <div class="carousel_img_wrapper img_3_wrapper"></div>
+                        <div class="carousel_sub_text">Start Up Loan</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_4_item">
+                        <div class="carousel_img_wrapper img_4_wrapper"></div>
+                        <div class="carousel_sub_text">Mortgage Loan</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_5_item">
+                        <div class="carousel_img_wrapper img_5_wrapper"></div>
+                        <div class="carousel_sub_text">Mortgage Portage</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_6_item">
+                        <div class="carousel_img_wrapper img_6_wrapper"></div>
+                        <div class="carousel_sub_text">Auto Pawn</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_7_item">
+                        <div class="carousel_img_wrapper img_7_wrapper"></div>
+                        <div class="carousel_sub_text">Sms Service</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                    <a href="#" class="carousel_item carousel_8_item">
+                        <div class="carousel_img_wrapper img_8_wrapper"></div>
+                        <div class="carousel_sub_text">Utilities & Other Payments</div>
+                        <div class="hidden_bckg"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="carouel_arrow_left_cont">
+                <div class="carousel_arrow_wrapper">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+            </div>
+            <div class="carouel_arrow_right_cont">
+                <div class="carousel_arrow_wrapper">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="thumbnail_cont">
+                <div class="thumbnail thumbnail_1"></div>
+                <div class="thumbnail"></div>
+                <div class="thumbnail"></div>
+                <div class="thumbnail"></div>
+                <div class="thumbnail"></div>
+            </div>
+        </div>
+        <div class="main_section_2">
+            <div class="s2_grid_title">Remote Products</div>
+            <div class="s2_flex_box">
+                <div class="s2_grid">
+                    <a href="#">
+                        <div class="s2_grid_img"><img src="images/7.jpg">
+                        </div>
+                        <div class="s2_grid_sub_text">
+                            <div class="s2_grid_sub_text_border_left">
+                                <div></div>
+                            </div>
+                            <div>Remote auto loan</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="s2_grid_img"><img src="images/6.jpg">
+                        </div>
+                        <div class="s2_grid_sub_text">
+                            <div class="s2_grid_sub_text_border_left">
+                                <div></div>
+                            </div>Online currency conversion
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="s2_grid_img"><img src="images/8.jpg">
+                        </div>
+                        <div class="s2_grid_sub_text">
+                            <div class="s2_grid_sub_text_border_left">
+                                <div></div>
+                            </div>SMS Service
+                        </div>
+                    </a>
+                </div>
+                <div class="s2_currency">
+                    <div class="s2_currency_titles">
+                        <div class="s2_currency_mbc">MBC Rates</div>
+                        <div class="s2_currency_nbg">NBG Rate</div>
+                    </div>
+                    <div class="s2_currency_table s2_currency_table_mbc">
+                        <div class="s2_currency_table_title">Currency</div>
+                        <div class="s2_currency_table_title">Buy</div>
+                        <div class="s2_currency_table_title">Sell</div>
+                        <div class="s2_currency_table_item">1 USD</div>
+                        <div class="s2_currency_table_item">3.420</div>
+                        <div class="s2_currency_table_item">3.428</div>
+                        <div class="s2_currency_table_item">1 EUR</div>
+                        <div class="s2_currency_table_item">4.060</div>
+                        <div class="s2_currency_table_item">4.075</div>
+                        <div class="s2_currency_table_item">100 RUB</div>
+                        <div class="s2_currency_table_item">4.350</div>
+                        <div class="s2_currency_table_item">4.450</div>
+                    </div>
+                    <div class="s2_currency_table s2_currency_table_nbg">
+                        <div class="s2_currency_table_title">Currency</div>
+                        <div class="s2_currency_table_title hidden">Buy</div>
+                        <div class="s2_currency_table_title hidden">Sell</div>
+                        <div class="s2_currency_table_item">1 USD</div>
+                        <div class="s2_currency_table_item">3.426</div>
+                        <div class="s2_currency_table_item">1 EUR</div>
+                        <div class="s2_currency_table_item">4.0646</div>
+                        <div class="s2_currency_table_item">100 RUB</div>
+                        <div class="s2_currency_table_item">4.4399</div>
+                    </div>
+                    <div class="contvert_currnecy_cont">
+                        <div class="con_cur_cont_title">Convert Currency</div>
+                        <div class="converter_form_lable">From currency:</div>
+                        <form action="#" class="form_currency">
+                            <select name="currency" class="currency currency_from">
+                                <option value="gel" selected>GEL</option>
+                                <option value="usd">USD</option>
+                                <option value="eur">EUR</option>
+                                <option value="rub">RUB</option>
+                            </select>
+                            <input type="number" class="currency_text currency_text_input">
+                        </form>
+                        <div class="converter_form_lable">To currency:</div>
+                        <form action="#" class="form_currency">
+                            <select name="currency" class="currency currency_to">
+                                <option value="gel" class="asd">GEL</option>
+                                <option value="usd" selected>USD</option>
+                                <option value="eur">EUR</option>
+                                <option value="rub">RUB</option>
+                            </select>
+                            <div class="currency_text">
+                                <div class="currency_text_output"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_3">
+            <div class="s3_title">News</div>
+            <div class="s3_grid_cont">
+                <a href="#" class="s3_item_cont">
+                    <div class="s3_img_cont"><img src="images/613.jpg"></div>
+                    <div class="s3_text_cont">
+                        <div class="s3_d_t_text_cont">
+                            <div class="s3_date">22 MAR 2021</div>
+                            <div class="s3_text_title">Embisee Joings Global Money Week</div>
+                            <div class="s3_text">"Embassy" joins Global Money Week!"Global Money Week", in more than 160 countries around the world, every year...</div>
+                        </div>
+                        <div class="s3_button">Learn More</div>
+                    </div>
+                </a>
+                <a href="#" class="s3_item_cont">
+                    <div class="s3_img_cont"><img src="images/612.jpg"></div>
+                    <div class="s3_text_cont">
+                        <div class="s3_d_t_text_cont">
+                            <div class="s3_date">16 MAR 2021</div>
+                            <div class="s3_text_title">Pay Taxes Without Commision</div>
+                            <div class="s3_text">"Embise" joined the initiative of the National Bank of Georgia and the International Day for the Protection of Costumer Rights and...</div>
+                        </div>
+                        <div class="s3_button">Learn More</div>
+                    </div>
+                </a>
+                <a href="#" class="s3_item_cont_hidden">
+                    <div class="s3_img_cont"><img src="images/611.jpg"></div>
+                    <div class="s3_text_cont">
+                        <div class="s3_d_t_text_cont">
+                            <div class="s3_date">16 MAR 2021</div>
+                            <div class="s3_text_title">Pay Taxes Without Commision</div>
+                            <div class="s3_text">"Embise" joined the initiative of the National Bank of Georgia and the International Day for the Protection of Costumer Rights and...</div>
+                        </div>
+                        <div class="s3_button">Learn More</div>
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="s3_button_view_all">View All</a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_cont">
+            <div class="footer_tel">
+                <div class="tel_icon"><img src="images/footer_phone_r.jpg"></div>
+                <a href="#" class="tel">(+995 32) 2 50 50 02</a>
+            </div>
+            <div class="footer_social">
+                <a href="#" class="facebook">f</a>
+                <a href="#" class="instagram">in</a>
+                <a href="#" class="mail"><i class="fa fa-envelope"></i></a>
+            </div>
+            <div class="footer_copyright">© 2019 "Micro Business Capital". All rights reserved.</div>
+            <div class="created_by">Created by <span>HobbyStudio</span></div>
+        </div>
+    </footer>
+</body>
+
+</html>
